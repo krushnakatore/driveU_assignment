@@ -1,12 +1,25 @@
 .homepage {
+  position: relative;
+  top: 150px;
   display: flex;
-  margin: 10px;
   gap: 50px;
-  background-image: src(
-    "https://i.ibb.co/NZM44wV/istockphoto-1191549346-612x612.jpg"
-  );
+  flex-wrap: wrap;
+  color: white;
+  margin-left: 3%;
+  margin-top: 3%;
+  /* border: 1px solid; */
 }
 .img {
-  width: 200px;
-  height: 250px;
+  border-radius: 5px;
+}
+.buttons {
+  top: 60px;
+  position: fixed;
+  z-index: 10;
+}
+.product {
+  /* background-color: rgba(187, 183, 183, 0.24); */
+  padding: 3%;
+  border-radius: 4%;
+  box-shadow: rgba(187, 181, 181, 0.24) 0px 3px 8px;
 }

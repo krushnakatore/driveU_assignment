@@ -3,7 +3,7 @@
   height: 250px;
   border-radius: 5px;
 }
-
-.cart {
-  margin-top: 50px;
+.productCard {
+  display: inline-block;
+  margin: 10px;
 }

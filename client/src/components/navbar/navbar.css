@@ -1,8 +1,12 @@
 .navbar {
+  top: 0px;
   display: flex;
   justify-content: space-evenly;
-  background-color: #495371;
+  background-color: #070707;
   align-items: center;
   width: 100%;
   height: 50px;
+  position: fixed;
+  z-index: 10;
+  overflow: inherit;
 }

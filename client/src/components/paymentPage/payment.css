@@ -1,0 +1,22 @@
+Input {
+  margin: auto;
+  padding: 5px;
+  width: 60%;
+}
+form {
+  margin: auto;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  padding: 50px 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+  background-color: rgb(15, 14, 14);
+}
+.checkOutButton {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 5%;
+  cursor: pointer;
+}
