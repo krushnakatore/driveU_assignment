@@ -1,0 +1,12 @@
+.homepage {
+  display: flex;
+  margin: 10px;
+  gap: 50px;
+  background-image: src(
+    "https://i.ibb.co/NZM44wV/istockphoto-1191549346-612x612.jpg"
+  );
+}
+.img {
+  width: 200px;
+  height: 250px;
+}
