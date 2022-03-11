@@ -20,32 +20,30 @@ export default function Home() {
     localStorage.setItem("shopcart", JSON.stringify(cart));
   };
   const handleRate = async () => {
-    await fetch(`https://krushnakatore.herokuapp.com/shop/rate?page=${num}`)
+    await fetch(`https://drivuassi.herokuapp.com/shop/rate?page=${num}`)
       .then((res) => res.json())
       .then((d) => {
         setData(d);
       });
   };
   const handleRadius = async () => {
-    await fetch(`https://krushnakatore.herokuapp.com/shop/radius?page=${num}`)
+    await fetch(`https://drivuassi.herokuapp.com/shop/radius?page=${num}`)
       .then((res) => res.json())
       .then((d) => setData(d));
   };
   const handlePayments = async () => {
-    await fetch(
-      `https://krushnakatore.herokuapp.com/online?page=${num}?limit=${4}`
-    )
+    await fetch(`https://drivuassi.herokuapp.com/online?page=${num}?limit=${4}`)
       .then((res) => res.json())
       .then((d) => setData(d));
   };
   const handleDiscount = async () => {
-    await fetch(`https://krushnakatore.herokuapp.com/shop/discount?page=${num}`)
+    await fetch(`https://drivuassi.herokuapp.com/shop/discount?page=${num}`)
       .then((res) => res.json())
       .then((d) => setData(d));
   };
 
   useEffect(async () => {
-    await fetch(`https://krushnakatore.herokuapp.com/shop?page=${num}`)
+    await fetch(`https://drivuassi.herokuapp.com/shop?page=${num}`)
       .then((res) => res.json())
       .then((d) => setData(d));
     setName(city[city.length - 1]);
